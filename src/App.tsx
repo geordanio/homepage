@@ -67,7 +67,7 @@ function App() {
             </a>
 
             <a
-              href="https://wa.me/5585994331014?text=Geordanio%20Almeida!"
+              href="https://wa.me/5588999359065?text=Geordanio%20Almeida!"
               target="_blank"
               rel="noopener noreferrer"
               className="group block bg-white/10 hover:bg-white/20 backdrop-blur-lg rounded-xl p-4 transition-all duration-300 transform hover:scale-[1.02]"
