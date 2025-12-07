@@ -11,10 +11,13 @@ function App() {
           <div className="text-center animate-fade-in">
             <div className="w-60 mx-auto mb-8 flex items-center justify-center">
               <img
-                src="https://i.ibb.co/RkZzDHXd/DSC02341.jpg"
+                src="https://i.ibb.co/4wDZf8m9/IMG-4848.jpg"
                 alt="Profile"
-                className="w-full h-auto object-contain shadow-2xl saturate-150 contrast-125 brightness-110 transition-transform duration-500 hover:scale-105 rounded-xl"
-                style={{ objectPosition: 'center center' }}
+                className="w-full h-auto object-contain shadow-2xl rounded-xl transition-transform duration-500 hover:scale-105 border-4 border-white"
+                style={{
+                  objectPosition: 'center center',
+                  filter: 'contrast(1.25) saturate(1.5) brightness(1.15) drop-shadow(0 8px 24px rgba(0,0,0,0.25)) blur(0.5px)'
+                }}
               />
             </div>
             <h1 className="text-3xl font-bold text-white mb-2">Geordanio Almeida</h1>
