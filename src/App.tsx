@@ -1,4 +1,5 @@
 import React from 'react';
+import fotoPerfil from './assets/nova-foto.jpg';
 import { Facebook, Linkedin, Instagram, Mail, ExternalLink, MessageCircle } from 'lucide-react';
 
 function App() {
@@ -8,11 +9,12 @@ function App() {
         <div className="space-y-8">
           {/* Profile Section */}
           <div className="text-center animate-fade-in">
-            <div className="relative w-32 h-32 mx-auto mb-6">
+            <div className="w-60 mx-auto mb-8 flex items-center justify-center">
               <img
-                src="https://i.ibb.co/KphXTdDm/Minha-foto.jpg"
+                src="https://i.ibb.co/RkZzDHXd/DSC02341.jpg"
                 alt="Profile"
-                className="rounded-full w-full h-full object-cover shadow-2xl ring-4 ring-white/10"
+                className="w-full h-auto object-contain shadow-2xl saturate-150 contrast-125 brightness-110 transition-transform duration-500 hover:scale-105 rounded-xl"
+                style={{ objectPosition: 'center center' }}
               />
             </div>
             <h1 className="text-3xl font-bold text-white mb-2">Geordanio Almeida</h1>
